@@ -29,5 +29,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     linux_firmware_qcom-sm8550
 
+# Disable debug and verbose logging by default
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += log.tag=I
+endif
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 36
