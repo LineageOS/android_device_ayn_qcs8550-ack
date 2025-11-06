@@ -3,6 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+TARGET_KERNEL_VERSION ?= 6.18
 TARGET_QCOM_SOC       := qcs8550
 
 # Soong namespaces
