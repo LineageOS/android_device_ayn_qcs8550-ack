@@ -30,7 +30,7 @@ TARGET_KERNEL_SOURCE          := vendor/ayn/$(TARGET_KERNEL_PLATFORM_TARGET)
 BOARD_KERNEL_IMAGE_NAME       := Image
 BOARD_KERNEL_PAGESIZE         := 4096
 endif
-BOARD_KERNEL_CMDLINE          := firmware_class.path=/vendor/firmware,/system/firmware cpufreq.default_governor=performance allow_mismatched_32bit_el0
+BOARD_KERNEL_CMDLINE          := firmware_class.path=/vendor/firmware,/system/firmware cpufreq.default_governor=performance allow_mismatched_32bit_el0 cma=128M
 include device/ayn/qcs8550-ack/modules.mk
 
 # Recovery

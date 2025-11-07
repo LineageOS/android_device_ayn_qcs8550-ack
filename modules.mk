@@ -51,6 +51,7 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 
 # Copy to boot
 BOOT_KERNEL_MODULES += \
+    cma_heap.ko \
     system_heap.ko \
     qcom-scm.ko \
     qcom_tzmem.ko \
@@ -158,6 +159,7 @@ BOOT_KERNEL_MODULES += \
 
 # Load in first stage boot
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD += \
+    cma_heap \
     system_heap \
     qnoc-sm8550 \
     icc-bwmon \
