@@ -7,6 +7,7 @@ TARGET_KERNEL_VERSION ?= 6.18
 TARGET_QCOM_SOC       := qcs8550
 
 TARGET_AUDIO_HAL       := baylibre
+TARGET_MEDIA_C2_HAL    := v4l2_codec2
 TARGET_POWER_HAL       := perfmgr-lineage
 TARGET_THERMAL_HAL     := linaro-libpm
 TARGET_USB_GADGET_HAL  := qti
