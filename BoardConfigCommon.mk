@@ -3,6 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Baseline Manifest, must be declared before any module manifests
+DEVICE_MANIFEST_FILE ?= device/ayn/qcs8550-ack/manifests/manifest.202604.xml
+
 # Inherit from mainline/qcom-common
 include device/mainline/qcom-common/BoardConfigMainlineQcomCommon.mk
 
