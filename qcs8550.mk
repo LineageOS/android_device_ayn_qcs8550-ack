@@ -6,6 +6,8 @@
 TARGET_KERNEL_VERSION ?= 6.18
 TARGET_QCOM_SOC       := qcs8550
 
+TARGET_AUDIO_HAL       := baylibre
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/ayn/qcs8550-ack
 
