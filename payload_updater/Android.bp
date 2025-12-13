@@ -1,0 +1,17 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_binary {
+    name: "ayn_bootloader_payload_updater",
+    srcs: ["ayn_bootloader_payload_updater.cpp"],
+    product_specific: true,
+
+    static_libs: [
+        "libbase",
+    ],
+    shared_libs: [
+        "liblog",
+    ],
+}
