@@ -35,3 +35,7 @@ include device/ayn/qcs8550-ack/modules.mk
 
 # Recovery
 BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := true
+
+# Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    device/ayn/qcs8550-ack/sepolicy/vendor
