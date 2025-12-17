@@ -19,5 +19,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 PRODUCT_COPY_FILES += \
     device/ayn/qcs8550-ack/init/init.qcs8550.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcs8550.rc
 
+# Firmware
+PRODUCT_PACKAGES += \
+    linux_firmware_qcom-sm8550
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 36
