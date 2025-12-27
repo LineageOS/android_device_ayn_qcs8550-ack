@@ -59,3 +59,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/wlan/qcwcn
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service
+PRODUCT_COPY_FILES += \
+    device/ayn/qcs8550-ack/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
+    device/ayn/qcs8550-ack/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
