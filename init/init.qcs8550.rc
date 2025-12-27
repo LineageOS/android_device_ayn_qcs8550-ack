@@ -9,6 +9,8 @@ on late-init
     write /sys/class/remoteproc/remoteproc0/state start
     write /sys/class/remoteproc/remoteproc1/state start
 
+    exec u:r:modprobe:s0 -- /system/bin/modprobe -a -d /system_dlkm/lib/modules hci_uart.ko
+
 # Mount
 on fs
     # Mount everything that does not require fsck
