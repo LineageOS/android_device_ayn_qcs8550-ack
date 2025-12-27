@@ -17,6 +17,13 @@ TARGET_USB_INIT_SCRIPT := qti
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/ayn/qcs8550-ack
 
+# Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
+PRODUCT_PACKAGES += \
+    WifiResCommon_Sys \
+    WifiResTarget
+
 # Inherit from mainline/qcom-common
 include device/mainline/qcom-common/optional/options.mk
 $(call inherit-product, device/mainline/qcom-common/mainline_qcom-common.mk)
