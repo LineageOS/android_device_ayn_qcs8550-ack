@@ -20,3 +20,8 @@ on fs
 on late-fs
     # Mount RW partitions which need run fsck
     mount_all --late
+
+on property:sys.boot_completed=1
+    write /sys/devices/system/cpu/cpufreq/policy0/scaling_governor schedutil
+    write /sys/devices/system/cpu/cpufreq/policy3/scaling_governor schedutil
+    write /sys/devices/system/cpu/cpufreq/policy7/scaling_governor schedutil
