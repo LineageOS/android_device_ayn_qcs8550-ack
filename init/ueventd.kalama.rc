@@ -1,0 +1,3 @@
+# rfkill
+/dev/rfkill			0660	bluetooth bluetooth
+/sys/class/rfkill/rfkill* state	0664	bluetooth net_bt
