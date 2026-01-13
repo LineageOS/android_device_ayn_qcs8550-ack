@@ -23,7 +23,8 @@ $(call inherit-product, device/mainline/qcom-common/mainline_qcom-common.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 PRODUCT_COPY_FILES += \
-    device/ayn/qcs8550-ack/init/init.qcs8550.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcs8550.rc
+    device/ayn/qcs8550-ack/init/init.qcs8550.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcs8550.rc \
+    device/ayn/qcs8550-ack/init/ueventd.kalama.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.kalama.rc
 
 # Firmware
 PRODUCT_PACKAGES += \
