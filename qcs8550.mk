@@ -37,3 +37,7 @@ endif
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 36
+
+# SSL
+PRODUCT_PACKAGES += \
+    libssl_32
