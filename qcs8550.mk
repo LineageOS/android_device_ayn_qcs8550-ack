@@ -41,3 +41,10 @@ PRODUCT_SHIPPING_API_LEVEL := 36
 # SSL
 PRODUCT_PACKAGES += \
     libssl_32
+
+# Wifi
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/wlan \
+    hardware/qcom-caf/wlan/qcwcn
+PRODUCT_PACKAGES += \
+    android.hardware.wifi-service
