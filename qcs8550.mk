@@ -46,6 +46,9 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += log.tag=I
 endif
 
+# Hacks
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += audio.timecheck.disabled=true
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 36
 
