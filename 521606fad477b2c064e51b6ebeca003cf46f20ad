@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0cd3e5c_f1662d0c",
+        "filename": "init/ueventd.kalama.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-03-04T18:26:58Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_mainline_qcom-common/+/476686",
+      "revId": "521606fad477b2c064e51b6ebeca003cf46f20ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
