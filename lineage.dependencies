@@ -2,5 +2,9 @@
   {
     "repository": "android_device_mainline_qcom-common",
     "target_path": "device/mainline/qcom-common"
+  },
+  {
+    "repository": "android_hardware_linaro_libpm",
+    "target_path": "hardware/linaro/libpm"
   }
 ]

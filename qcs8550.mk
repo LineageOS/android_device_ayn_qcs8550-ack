@@ -8,6 +8,7 @@ TARGET_QCOM_SOC       := qcs8550
 
 TARGET_AUDIO_HAL       := baylibre
 TARGET_POWER_HAL       := perfmgr-lineage
+TARGET_THERMAL_HAL     := linaro-libpm
 TARGET_USB_GADGET_HAL  := qti
 TARGET_USB_HAL         := qti
 TARGET_USB_INIT_SCRIPT := qti
