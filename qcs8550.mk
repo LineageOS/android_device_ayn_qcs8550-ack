@@ -14,6 +14,8 @@ TARGET_USB_GADGET_HAL  := qti
 TARGET_USB_HAL         := qti
 TARGET_USB_INIT_SCRIPT := qti
 
+TARGET_MINIGBM_PLATFORM := gbm_mesa
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/ayn/qcs8550-ack
 
