@@ -6,5 +6,9 @@
   {
     "repository": "android_hardware_linaro_libpm",
     "target_path": "hardware/linaro/libpm"
+  },
+  {
+    "repository": "android_kernel_ayn_qcs8550-build-ack",
+    "target_path": "kernel/platform/kernel-6.18/vendor/ayn/qcs8550"
   }
 ]
