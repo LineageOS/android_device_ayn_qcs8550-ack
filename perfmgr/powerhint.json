@@ -254,6 +254,30 @@
             "Node": "GPUMinFreq",
             "Duration": 1000,
             "Value": "295000000"
+        },
+        {
+            "PowerHint": "FIXED_PERFORMANCE",
+            "Node": "CPU0MinFreq",
+            "Duration": 0,
+            "Value": "2016000"
+        },
+        {
+            "PowerHint": "FIXED_PERFORMANCE",
+            "Node": "CPU3MinFreq",
+            "Duration": 0,
+            "Value": "2707200"
+        },
+        {
+            "PowerHint": "FIXED_PERFORMANCE",
+            "Node": "CPU7MinFreq",
+            "Duration": 0,
+            "Value": "2956800"
+        },
+        {
+            "PowerHint": "FIXED_PERFORMANCE",
+            "Node": "GPUMinFreq",
+            "Duration": 0,
+            "Value": "680000000"
         }
     ]
 }
