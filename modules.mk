@@ -25,10 +25,6 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
     videocc-sm8550 \
     qcom-iris
 
-# Network
-BOARD_VENDOR_KERNEL_MODULES_LOAD += \
-    ipa
-
 # Sound
 BOARD_VENDOR_KERNEL_MODULES_LOAD += \
     snd-soc-hdmi-codec \
